@@ -2,12 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+body {
+  min-width:940px;
+}
+
 .container {
   min-width: 870px;
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-color: red;
+  background-color: white;
 }
 
 .main-bar {
@@ -15,6 +18,7 @@
   width: 100%;
 }
 
+// Top Bar Stylings
 #top-bar {
   top: 0px;
   text-align: center;
@@ -24,9 +28,10 @@
   line-height:180px;
 }
 
-#bottom-bar {
-  height:200px;
-  line-height:200px;
+#company-logo {
+  width:180px;
+  margin-top:70px;
+  margin-left:80px;
 }
 
 #dynamic-description {
@@ -49,6 +54,94 @@
   font-weight:400;
 }
 
+#description-underline {
+  background-color:white;
+  width:450px;
+  height:1px;
+  margin-top:-8px;
+  margin-left:120px;
+}
+
+// Content area stylings
+
 #content-area {
-  height:600px;
+  height:500px;
+  text-align:center;
+}
+
+.buttons-content {
+  position:relative;
+  top:50%;
+}
+
+.style-type-container {
+  background-color:#F8EFB6;
+  width:150px;
+  height:130px;
+  float:left;
+  margin-left:58px;
+  border-radius:5px;
+}
+
+.style-border {
+  background:transparent;
+  border:2px solid #485D52;
+  width:142px;
+  height:122px;
+  margin:2px 0px 0px 2px;
+  border-radius:5px;
+}
+
+// Bottom Bar Sylings
+
+#bottom-bar {
+  height:200px;
+  line-height:200px;
+  text-align:center;
+}
+
+#hoodie-dude {
+  height:220px;
+  width:auto;
+  margin-top:-20px;
+  float:left;
+  margin-left:60px;
+}
+
+#enter-scoutfit {
+  height:50px;
+  width:auto;
+  line-height:200px;
+  margin-left:0px;
+  position:relative;
+  top:50%;
+  margin-top:-30px;
+}
+
+#suit-dude {
+  height:220px;
+  width:auto;
+  margin-top:-20px;
+  float:right;
+  margin-right:60px;
+}
+
+.arrow-line {
+  background-color:white;
+  height:1px;
+  width:190px;
+  float:left;
+  line-height:200px;
+  position:relative;
+  top:50%;
+  margin-right:10px;
+  margin-left:10px;
+}
+
+#right-line {
+  width:210px;
+}
+
+#chevron-right {
+  margin-left:-19px;
 }
