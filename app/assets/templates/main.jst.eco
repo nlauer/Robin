@@ -1,1 +1,12 @@
-<h1>SHOWMETHEMONEY</h1>
+<div class="container">
+  <div id="top-bar" class="main-bar">
+    <div id="company-logo"/>
+    <div id="company-description" class="offset4 span6">
+      Find <span class="description-bold">handpicked outfits</span> that fit your <span id="dynamic-description">MOOD</span> 
+    </div>
+  </div>
+  <div id="content-area">
+  </div>
+  <div id="bottom-bar" class="main-bar">   
+  </div>
+</div>
