@@ -10,6 +10,7 @@ class Robin.Views.MainView extends Backbone.View
     "keyup #activity-search-input": "searchKeyPressed",
     "paste #activity-search-input": "searchKeyPressed",
     "change #activity-search-input": "searchKeyPressed",
+    "focus #activity-search-input": "setupSearch",
     "click .style-type-container": "styleButtonClicked",
     "click #results-hover-shoes": "openShoesLink",
     "click #results-hover-sweater": "openSweaterLink",
@@ -41,7 +42,6 @@ class Robin.Views.MainView extends Backbone.View
     delay = (ms, func) -> setTimeout func, ms
 
     searchInput = $("#activity-search-input")
-    delay 200, -> searchInput.attr("disabled", true)
     delay 200, -> searchInput.val("Your Results:")
     delay 200, -> searchInput.fadeIn("fast")
     delay 200, -> $("#results-container").fadeIn("fast")
@@ -54,3 +54,14 @@ class Robin.Views.MainView extends Backbone.View
 
   openPantsLink: ->
     window.open("http://www.hm.com/ca/product/00918?article=00918-E")
+
+  setupSearch: (event) ->
+    searchBar = $(event.currentTarget)
+    if (searchBar.val() == "Your Results:")
+      searchBar.val("")
+      $("#results-container").fadeOut("fast")
+      searchBar.fadeOut("fast")
+      
+      delay = (ms, func) -> setTimeout func, ms
+      delay 200, -> searchBar.fadeIn("fast")
+      delay 200, -> $("#activity-i-am").fadeIn("fast")
