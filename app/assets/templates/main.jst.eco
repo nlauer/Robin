@@ -7,6 +7,10 @@
     </div>
   </div>
   <div id="content-area" >
+    <div id="activity-search">
+      <span id="activity-i-am">I'm</span>
+      <input type="text" data-provide="typeahead" id="activity-search-input" data-items="4" data-source='["Clubbing", "Going to the Bar", "Chilling with Friends", "Going on a date", "Heading to class"]'>
+    </div>
     <div class="buttons-content span12">
       <div class="style-type-container ">
         <div class="style-border">

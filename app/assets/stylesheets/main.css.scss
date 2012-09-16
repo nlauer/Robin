@@ -69,9 +69,38 @@ body {
   text-align:center;
 }
 
+#activity-search {
+  margin-left:70px;
+  float:left;
+  margin-top:100px;
+}
+
+#activity-i-am {
+  float:left;
+  margin-left:10px;
+  color:#242424;
+  font-size:40px;
+  margin-top:20px;
+}
+
+#activity-search-input {
+  float:left;
+  margin-left:20px;
+  height:50px;
+  width:400px;
+  background-color:#AC4A00;
+  color:white;
+  font-weight:200;
+  font-size:30px;
+  &:hover {
+    border:1px solid black;
+  }
+}
+
 .buttons-content {
   position:relative;
-  top:50%;
+  margin-top:55px;
+  display:none;
 }
 
 .style-type-container {
@@ -114,7 +143,6 @@ body {
   font-family:Impact;
   margin-top:25px;
 }
-
 
 .style-description {
   color:black;
