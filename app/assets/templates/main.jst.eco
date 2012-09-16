@@ -9,16 +9,48 @@
   <div id="content-area" >
     <div class="buttons-content span12">
       <div class="style-type-container ">
-        <div class="style-border" />
+        <div class="style-border">
+          <div class="style-title">
+            CLASSY
+          </div>
+          <img src="assets/separator.png" alt="separator" class="style-separator"/>
+          <div class="style-description">
+            Roll in ensuring everyone knows you have more swagger and style than the general public.
+          </div>
+        </div>
       </div>
       <div class="style-type-container ">
-        <div class="style-border" />
+        <div class="style-border">
+          <div class="style-title">
+            CASUAL 
+          </div>
+          <img src="assets/separator.png" alt="separator" class="style-separator"/>
+          <div class="style-description">
+            Don't over do it, just get the happiest medium between chill and rowdy.
+          </div>
+        </div>
       </div>
       <div class="style-type-container ">
-        <div class="style-border" />
+        <div class="style-border">
+          <div class="style-title">
+            RUGGED
+          </div>
+          <img src="assets/separator.png" alt="separator" class="style-separator"/>
+          <div class="style-description">
+            A little bit of scruff, buff, and a lot of sexy.
+          </div>
+        </div>
       </div>
       <div class="style-type-container ">
-        <div class="style-border" />
+        <div class="style-border">
+          <div class="style-title">
+            HIPSTER
+          </div>
+          <img src="assets/separator.png" alt="separator" class="style-separator"/>
+          <div class="style-description">
+            You're here because choosing your own clothes is just way too mainstream.
+          </div>
+        </div>
       </div>
     </div>
   </div>
