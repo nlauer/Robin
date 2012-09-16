@@ -1,9 +1,11 @@
 <div class="container">
-  <div id="top-bar" class="main-bar">
-    <img id="company-logo" src="assets/logo.png" alt="company-logo" class="span4"/>
-    <div id="company-description" class="offset4 span6">
-      Find <span class="description-bold">handpicked outfits</span> that fit your <span id="dynamic-description">MOOD</span> 
-      <div id="description-underline"/>
+  <div id="top-background" class="main-bar">
+    <div id="top-bar">
+      <img id="company-logo" src="assets/logo.png" alt="company-logo" class="span4"/>
+      <div id="company-description" class="offset4 span6">
+        Find <span class="description-bold">handpicked outfits</span> that fit your <span id="dynamic-description">MOOD</span> 
+        <div id="description-underline"/>
+      </div>
     </div>
   </div>
   <div id="content-area" >
@@ -58,12 +60,14 @@
       </div>
     </div>
   </div>
-  <div id="bottom-bar" class="main-bar">
-    <img src="assets/hoodiedude.png" alt="hoodie-dude" id="hoodie-dude" class="span2"/>
-    <div class="arrow-line span3" id="left-line" />
-    <img src="assets/enterscout.png" alt="enter-scoutfit" id="enter-scoutfit" class="span2" />
-    <div class="arrow-line span3" id="right-line" />
-    <img src="assets/chevron-right.png" alt="chevron-right" id="chevron-right"/>
-    <img src="assets/suitdude.png" alt="suit-dude" id="suit-dude" class="span2"/>
+  <div id="bottom-background" class="main-bar">
+    <div id="bottom-bar">
+      <img src="assets/hoodiedude.png" alt="hoodie-dude" id="hoodie-dude" class="span2"/>
+      <div class="arrow-line span3" id="left-line" />
+      <img src="assets/enterscout.png" alt="enter-scoutfit" id="enter-scoutfit" class="span2" />
+      <div class="arrow-line span3" id="right-line" />
+      <img src="assets/chevron-right.png" alt="chevron-right" id="chevron-right"/>
+      <img src="assets/suitdude.png" alt="suit-dude" id="suit-dude" class="span2"/>
+    </div>
   </div>
 </div>
