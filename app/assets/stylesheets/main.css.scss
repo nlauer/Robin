@@ -108,6 +108,99 @@ body {
   display:none;
 }
 
+#results-container {
+  position:relative;
+  margin-top:55px;
+  display:none;
+}
+
+.results-item-container {
+  width:180px;
+  height:auto;
+  float:left;
+  margin-left:65px;
+  background:black;
+  border:2px solid #62656F;
+}
+
+#results-shoes {
+  &:hover {
+    cursor:pointer;
+    border:2px solid white;
+    #results-hover-shoes { display:block; }
+  }
+}
+
+#results-sweater {
+  &:hover {
+    cursor:pointer;
+    border:2px solid white;
+    #results-hover-sweater { display:block; }
+  }
+}
+
+#results-pants {
+  &:hover {
+    cursor:pointer;
+    border:2px solid white;
+    #results-hover-pants { display:block; }
+  }
+}
+
+#results-hover-shoes {
+  display:none;
+  position:absolute;
+  top:-35px;
+  left:33px;
+  background:#62656F;
+  opacity:0.8;
+  width:250px;
+  height:280px;
+}
+
+#results-hover-sweater {
+  display:none;
+  position:absolute;
+  top:-35px;
+  left:280px;
+  background:#62656F;
+  opacity:0.8;
+  width:250px;
+  height:280px;
+}
+
+#results-hover-pants {
+  display:none;
+  position:absolute;
+  top:-35px;
+  left:530px;
+  background:#62656F;
+  opacity:0.8;
+  width:250px;
+  height:280px;
+}
+
+.result-name {
+  color:white;
+  font-size:20px;
+  position:relative;
+  top:15px;
+}
+
+.result-hover-item {
+  width:150px;
+  position:relative;
+  top:35px;
+}
+
+.result-store-name {
+  position:relative;
+  top:70px;
+  width:150px;
+  color:white;
+  font-size:20px;
+}
+
 .style-type-container {
   background-color:#F8EFB6;
   width:150px;

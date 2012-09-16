@@ -59,6 +59,32 @@
         </div>
       </div>
     </div>
+    <div id="results-container" class="span12">
+      <div class="results-item-container" id="results-shoes">
+        <img src="assets/shoes.png" alt="shoes" />
+        <div id="results-hover-shoes">
+          <span class="result-name"> Modern Boots </span>
+          <img src="assets/hover-item.png" alt="hover-item" class="result-hover-item" /><br/>
+          <span class="result-store-name"> H&M </span>
+        </div>
+      </div>
+      <div class="results-item-container" id="results-sweater">
+        <img src="assets/sweater.png" alt="sweater" />
+        <div id="results-hover-sweater">
+          <span class="result-name"> V - Neck Sweater </span>
+          <img src="assets/hover-item.png" alt="hover-item" class="result-hover-item" /><br/>
+          <span class="result-store-name"> H&M </span>
+        </div>
+      </div>
+      <div class="results-item-container" id="results-pants">
+        <img src="assets/pants.png" alt="pants" />
+        <div id="results-hover-pants">
+          <span class="result-name"> Fusion Pants </span>
+          <img src="assets/hover-item.png" alt="hover-item" class="result-hover-item" /><br/>
+          <span class="result-store-name"> H&M </span>
+        </div>
+      </div>
+    </div>
   </div>
   <div id="bottom-background" class="main-bar">
     <div id="bottom-bar">
