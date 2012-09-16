@@ -5,7 +5,11 @@ class Robin.Views.MainView extends Backbone.View
     @render()
 
   events: {
-    "blur #activity-search-input": "searchBlurred"
+    "propertychange #activity-search-input": "searchKeyPressed",
+    "input #activity-search-input": "searchKeyPressed",
+    "keyup #activity-search-input": "searchKeyPressed",
+    "paste #activity-search-input": "searchKeyPressed",
+    "change #activity-search-input": "searchKeyPressed"
   }
 
   render: ->
@@ -13,6 +17,14 @@ class Robin.Views.MainView extends Backbone.View
 
     this
 
-  searchBlurred: (event) ->
-    console.log($(".buttons-content"))
-    $(".buttons-content").fadeIn("fast")
+  searchKeyPressed: (event) ->
+    console.log($(event.currentTarget).val())
+    @searchArray = ["Clubbing", "Going to the Bar", "Chilling with Friends", "Going on a date", "Heading to class"] 
+    shouldShowButtons = false
+    for query in @searchArray
+      if (query == $(event.currentTarget).val())
+        shouldShowButtons = true 
+    if(shouldShowButtons)
+      $(".buttons-content").fadeIn("fast")
+    else
+      $(".buttons-content").fadeOut("fast")
